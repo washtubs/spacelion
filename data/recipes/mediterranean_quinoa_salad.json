@@ -1,0 +1,29 @@
+{
+    "title": "Mediterranean  Quinoa  Salad",
+    "intro": "This recipe is one of my favorites...as a side dish or as an entree.  The dressing is made with plenty of lemon juice and just enough olive oil to pull all the ingredients together.  No guilt in this recipe; a good source of protein, fiber, and healthy fats!",
+    "ingredients": [
+        {"name": "Extra Virgin Olive Oil", "amount": "1/4 cup"},
+        {"name": "Juice from 1 lemon", "amount": "1/4 cup"},
+        {"name": "Garlic clove",  "amount": "1 minced"},
+        {"name": "Kosher Salt", "amount": "1/4 tsp"},
+        {"name": "Black Pepper",  "amount": "1 tsp"},
+        {"name": "Quinoa, uncooked",  "amount": "1 cup"},
+        {"name": "Red grape or cherry tomatoes, halved",  "amount": "1 cup"},
+        {"name": "Yellow grape or cherry tomatoes, halved", "amount": "1 cup"},
+        {"name": "Pitted Black Olives, halved", "amount": "1/2 cup"},
+        {"name": "Chick Peas, canned", "amount": "1 cup"},
+        {"name": "Red onion, chopped", "amount": "1/2 cup"},
+        {"name": "Feta Cheese, crumbled", "amount": "3/4 cup"},
+        {"name": "Fresh minced parsley (or 2 tsp dried)", "amount": "2 Tbsp"}
+    ],
+    "image": "/images/recipes/mediterranean_quinoa_salad.jpg",
+    "prepTime": "30 minutes",
+    "servings": " 6 large servings\n 12 small servings",
+    "directions": [
+        "Cook quinoa according to package directions and allow to cool.",
+        "Combine the olive oil, lemon juice, garlic, salt, and pepper in a small bowl and stir using a whisk or put in a jar and shake.",
+        "Place all remaining ingredients except the parsley in a large bowl and stir; pour the dressing over the top and toss; sprinkle parsley on top."
+    ],
+    "nutritionFacts": "Per serving (6):  317 calories; 17 g fat; 35 g carbohydrates; 9 g protein; 5 g fiber; 17 mg cholesterol; 705 mg sodium",
+    "notes": "This recipe can be served with your favorite protein or as an entree.  Make this ahead and allow to chill overnight.  Tastes better the next day.  If you are not a fan of quinoa, try whole grain pasta or rice.  To reduce sodium, omit salt."
+}

@@ -1,0 +1,72 @@
+{{ $type := .Get 0 }}
+{{ $recipe := index $.Site.Data.recipes $type }}
+<div class="panel panel-default recipe">
+  <div class="panel-heading">
+    {{ $recipe.title }}
+  </div>
+  <div class="panel-body">
+    <div class="recipe-head">
+      <div class="recipe-title">
+        {{ $recipe.intro }}
+      </div>
+      <div class="recipe-image thumbnail">
+        <img src='{{ $recipe.image | absURL }}' alt="Quinoa Salad">
+        {{ with $recipe.caption }}
+        <div class="caption">
+          {{ $recipe.caption }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    <div class="recipe-section">
+      <div class="recipe-ingredients">
+        <h4>Ingredients</h4>
+        <ol class="list-group">
+          {{ range $recipe.ingredients }}
+            <li class="list-group-item">
+              <span class="ingredient">{{ .name }}</span>
+              {{ with .amount }}
+                <span class="badge amount">{{ . }}</span></li>
+              {{ end }}
+              {{ with .optional }}
+                <span class="badge amount">Optional</span></li>
+              {{ end }}
+          {{ end }}
+        </ol>
+      </div>
+      <div class="recipe-remarks panel panel-default">
+        <div class="panel-heading">
+          Prep Time
+        </div>
+        <div class="panel-body">
+          {{ $recipe.prepTime }}
+        </div>
+        <div class="panel-heading">
+          Servings
+        </div>
+        <div class="panel-body">
+          {{ $recipe.servings }}
+        </div>
+        <div class="panel-heading">
+          Nutrition Facts
+        </div>
+        <div class="panel-body">
+          {{ $recipe.nutritionFacts }}
+        </div>
+      </div>
+    </div>
+    <h4>Directions</h4>
+    <ol>
+      {{ range $recipe.directions }}
+      <li> {{ . }} </li>
+      {{ end }}
+    </ol>
+    <h4>Cook's notes</h4>
+    <div>
+      {{ $recipe.notes }}
+    </div>
+    <div class="recipe-footer">
+      <em class="author">{{ .Site.Params.name }}</em>
+    </div>
+  </div>
+</div>

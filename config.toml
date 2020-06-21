@@ -1,3 +1,44 @@
-baseURL = "http://example.org/"
+baseURL = "https://spacelion.dev/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "spacelion"
+theme = "archie"
+
+[params]
+
+# Controls which section is used for home page listing, posts only
+# NOTE! without this it will automatically choose ... wait for it ...
+# the section with the *most* content lmao
+mainSections = ["posts"]
+
+# Controls dark mode
+#mode = "dark"
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/washtubs"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Wiki"
+url = "/wiki"
+weight = 2
+
+[[menu.main]]
+name = "Recipes"
+url = "/wiki/recipes"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 5

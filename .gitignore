@@ -1,2 +1,4 @@
 .letsencrypt*
 deploy
+**/.gd
+public

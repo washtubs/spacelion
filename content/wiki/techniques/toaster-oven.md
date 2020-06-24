@@ -14,3 +14,4 @@ Broil 5 minutes, flip, broil 5 minutes, temp 160
 ### Hot dogs
 
 6 minutes broiled on aluminum foil
+
